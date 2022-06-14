@@ -4,8 +4,11 @@ sidebar_position: 2
 
 # Installing Ararat
 <!-- The easiest way to install Ararat is one-click deployment to Hye Cloud over the Hye Speed Network-->
+:::tip
 
 We reccomend using the most recent **LTS release of Node.JS**.
+
+:::
 
 ### Get Source Ready
 Enter the directory you want to install Ararat to, and clone the repository.
