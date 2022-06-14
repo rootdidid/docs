@@ -7,6 +7,11 @@ sidebar_position: 1
 # Ararat
 
 ### Node.JS
+:::tip
+
+We reccomend using the most recent **LTS release of Node.JS**.
+
+:::
 Node.JS version 14 or later
 
 ### PostgreSQL Database
