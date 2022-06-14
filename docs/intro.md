@@ -10,4 +10,4 @@ Ararat is **built on top of the incredible LXD platform**, making it **compatibl
 
 Ararat also includes an incredibly powerful but simple REST API.
 
-If you want to chck out Hye Ararat yourself, check out the **[getting started guide](/docs/catagory/getting-started/)**.
+If you want to chck out Hye Ararat yourself, check out the **[getting started guide](category/getting-started)**.
