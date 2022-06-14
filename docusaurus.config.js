@@ -52,7 +52,7 @@ const config = {
       }),
     ],
   ],
-
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -69,7 +69,9 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+
           { to: '/blog', label: 'Blog', position: 'left' },
+          
           {
             href: 'https://github.com/Hye-Ararat/docs',
             label: 'GitHub',
