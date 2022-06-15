@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Hye Ararat
-:::warning Alpha
+:::danger Alpha
 Ararat is currently in alpha build, and should not be used in production
 :::
 
