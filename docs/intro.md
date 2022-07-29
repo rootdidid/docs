@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Hye Ararat
 :::danger Alpha
-Ararat is currently in alpha build, and should not be used in production
+Ararat is currently in beta build, and should not be used in production
 :::
 
 Ararat is the next-generation **container/virtual machine control panel**. It is **your one-stop shop for single application container, full system containers, and KVM instances**.
