@@ -18,27 +18,18 @@ Now let's install Ararat's dependencies
 npm install
 ```
 
-### Database Setup
-Now it's time to setup your database. Create a new file called `.env` with the following contents (replace the database url with your own PostgreSQL database information):
-
-```env title=".env"
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
-```
-
-Now it's time to initilize our database.
-```
-npx prisma db push
-```
 
 ### Ararat Setup
-Now it's time to setup Ararat. Create a new file called `.env.local` with the following contents (replace environment variables with your appropriate data. You can generate an ENC_KEY **[here](https://www.browserling.com/tools/random-hex)**.)
+Now it's time to setup Ararat. Make sure you already have either a PostgreSQL or CockroachDB database ready for deployment. Let's run the setup wizard to get everything ready.
 
-```env title=".env.local"
-ENC_KEY=replacewithrandom32characterstring
-PANEL_URL=http://example.com:3000
+```
+node configure.js
 ```
 
-Now we're ready to build Ararat.
+Fill out the information which the setup wizard asks of you.
+
+After the setup wizard is complete, we're ready to build Ararat.
+
 ```
 npm run build
 ```
