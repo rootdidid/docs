@@ -52,7 +52,7 @@ const config = {
       }),
     ],
   ],
-  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -71,7 +71,7 @@ const config = {
           },
 
           { to: '/blog', label: 'Blog', position: 'left' },
-          
+
           {
             href: 'https://github.com/Hye-Ararat/docs',
             label: 'GitHub',
@@ -124,6 +124,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+      }
     }),
 };
 
