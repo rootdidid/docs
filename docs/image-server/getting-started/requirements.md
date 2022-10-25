@@ -10,7 +10,7 @@ sidebar_position: 1
 We reccomend using the most recent **LTS release of Node.JS**.
 
 :::
-Node.JS version 14 or later
+Node.JS version 16 or later
 
 ### Supported Databases
 - PostgreSQL <!-- Deploy on **[Hye Cloud]("https://cloud.hye.gg")** -->
