@@ -37,4 +37,4 @@ npm run build
 ### Congratulations
 Congrats! Your done! You can start your shiny new Ararat instance with `npm run start`. 
 
-The Ararat client has a 1-click command for installing Hye Lava.
+It should be noted that the Ararat client has a 1-click command for configuring Hye Lava.
